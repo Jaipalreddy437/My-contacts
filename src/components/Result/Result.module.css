@@ -1,0 +1,32 @@
+.results {
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+}
+.results ul {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.results ul li {
+  padding: 20px 36px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 203, 203);
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.results ul li .icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.results ul li svg {
+  cursor: pointer;
+}
